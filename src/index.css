@@ -1,14 +1,50 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  font-family: -apple-system, BlinkMacSystemFont, "Aleo", "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  padding-bottom: 10%;
+  background: url("./background.png");
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+audio::-webkit-media-controls-panel {
+  background-color: palevioletred;
+}
+
+audio::-webkit-media-controls-play-button {
+  margin: 0 auto;
+  color: white;
+  cursor: pointer;
+}
+
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display,
+audio::-webkit-media-controls-mute-button,
+audio::-webkit-media-controls-timeline {
+  display: none;
+}
+
+/* // audio::-webkit-media-controls-mute-button
+// audio::-webkit-media-controls-play-button
+// audio::-webkit-media-controls-timeline-container
+// audio::-webkit-media-controls-current-time-display
+// audio::-webkit-media-controls-time-remaining-display
+// audio::-webkit-media-controls-enclosure
+// audio::-webkit-media-controls-timeline 
+// audio::-webkit-media-controls-volume-slider-container 
+// audio::-webkit-media-controls-volume-slider 
+// audio::-webkit-media-controls-seek-back-button 
+// audio::-webkit-media-controls-seek-forward-button 
+// audio::-webkit-media-controls-fullscreen-button 
+// audio::-webkit-media-controls-rewind-button 
+// audio::-webkit-media-controls-return-to-realtime-button 
+// audio::-webkit-media-controls-toggle-closed-captions-button  */

@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Aleo";
+  src: url("Aleo-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Aleo";
+  src: url("Aleo-Light.ttf") format("truetype");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Aleo";
+  src: url("Aleo-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
